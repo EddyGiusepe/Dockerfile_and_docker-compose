@@ -1,3 +1,5 @@
+# Ver o seguinte link --> https://pre-commit.com/
+
 repos:
 -   repo: local
     hooks:
@@ -7,3 +9,7 @@ repos:
         language: system
         pass_filenames: false
         stages: [commit]
+
+
+
+    
