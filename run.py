@@ -16,7 +16,6 @@ def insert():
     '''Função de insert'''
     userRepo = UserRepo()
     body = request.json
-
     userRepo.insert_user(body["name"])
 
     return 'ok'

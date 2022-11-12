@@ -1,7 +1,6 @@
 from sqlalchemy import Column, String, Integer
+from sqlalchemy.sql.expression import true
 from src.config import Base
-
-
 
 class Users(Base):
 
@@ -11,6 +10,5 @@ class Users(Base):
     name = Column(String)
 
     def __repr__(self) -> str:
-        return f"Users [name ={self.name}]"
-
+        return f"Users [name={self.name}]"
 
